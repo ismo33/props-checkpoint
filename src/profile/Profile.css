@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    
+    width: 300px;
+    height: 450px;
+    
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px  rgba(0,0,0,0.7) ;
+    
+}
+.upper-container{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+}
+.image-container img{
+    border-radius: 50%;
+    padding: 5px ;
+    background-color: white;
+    transform: translate(0,50%);
+    border: 2px solid rgb(108, 91, 120);
+}
+.lower-container{
+    padding: 5px;
+    padding-top:45px;
+    text-align: center;
+    font-family: 'Anek Bangla', sans-serif;
+    line-height: 22px;
+}
+h3,h4{
+    margin: 10px;
+    padding: 4px;
+}
+h4{
+    background: linear-gradient(to right, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
